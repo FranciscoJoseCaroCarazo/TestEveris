@@ -27,6 +27,8 @@ public class helper {
 			System.out.println("1.-Crear Coche.");
 			System.out.println("2.-Listar Coches.");
 			System.out.println("3.-Borrar un Coche.");
+			System.out.println("4.-Sumar 2 Numeros.");
+			System.out.println("5.-restar 2 Numeros.");
 			System.out.println();
 			System.out.println("0.-Salir de la aplicacion.");
 			System.out.println("==========================================");
@@ -42,6 +44,12 @@ public class helper {
 				break;
 			case 3:
 				borrarVideojuego();
+				break;
+			case 4:
+				sumarNum(2,2);
+				break;
+			case 5:
+				restarNum(3,2);
 				break;
 			case 0:
 				System.out.println("Saliendo del Programa");
@@ -122,5 +130,17 @@ public class helper {
 		}
 
 		return mayor;
+	}
+	
+	public static int sumarNum(int a, int b) {
+		int c;
+		c = a+b;
+		return c;
+	}
+	
+	public static int restarNum(int a, int b) {
+		int c;
+		c = a-b;
+		return c;
 	}
 }
