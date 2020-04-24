@@ -43,9 +43,8 @@ public class helper {
 			case 3:
 				borrarVideojuego();
 				break;
-			
 			case 0:
-				
+				System.out.println("Saliendo del Programa");
 				break;
 			default:
 				System.out.println("Por favor seleccione una opcion del 0-5");
